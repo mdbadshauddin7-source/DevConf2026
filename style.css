@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar-parent{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 60px;
+
+}
+.button{
+    background-color: #1D4ED8;
+    color:aliceblue;
+    padding: 7px 5px;
+    border-radius: 8px;
+    margin-right: 12px;
+    cursor:pointer;
+    
+
+}
+ .navbar-parent ul{
+    display: flex;
+    gap:15px;
+    margin-top: 10px;
+    
+    list-style: none;
+ }
+ .logo{
+    margin-left:12px;
+ }
+
+ .navbar-parent ul li a{
+    text-decoration: none;
+    color:#575757
+ }
