@@ -34,3 +34,29 @@
     text-decoration: none;
     color:#575757
  }
+
+ .hero-section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+   
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url("./assets/banner.jpg") ;
+ }
+ .hero-container{
+    color: #fff; 
+    width: 650px;
+ }
+ .hero-container h1{
+font-size: 55px;
+margin-top:50px;
+margin-bottom:18px;
+ }
+
+ .hero-container p{
+    line-height: 27px;
+    margin-bottom: 26px;
+ }
