@@ -186,3 +186,42 @@ padding-bottom:10px ;
     color:#6B7280;
     line-height:28px;
 }
+
+/* Footer */
+
+.footer{
+    width:1140px;
+    margin:100px auto 30px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.footer-logo{
+    font-size:32px;
+    font-weight:700;
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons img{
+    width:28px;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid #E5E7EB;
+    margin-bottom:20px;
+}
+
+.copyright{
+    text-align:center;
+    color:#6B7280;
+}
