@@ -1,6 +1,11 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
 }
 
 .navbar-parent{
@@ -14,10 +19,15 @@
     color:aliceblue;
     padding: 7px 5px;
     border-radius: 8px;
-    margin-right: 12px;
+  
     cursor:pointer;
     
 
+}
+
+.button{
+    border:none;
+    padding: 12px 24px;
 }
  .navbar-parent ul{
     display: flex;
@@ -40,7 +50,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    text-align: center;
+   
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -49,7 +59,7 @@
  }
  .hero-container{
     color: #fff; 
-    width: 650;
+    max-width:650px;
  }
  .hero-container h1{
 font-size: 55px;
@@ -63,12 +73,16 @@ margin-bottom:18px;
  }
 
  /* speacker section */
+ .speakers-section{
+    width:1140px;
+    margin:100px auto;
+}
 
 .speaker-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-     gap: 20px;
-    margin: 20px;
+     gap: 24px;
+  
 }
 
 .speaker-card img{
@@ -88,7 +102,7 @@ text-transform: uppercase;
       font-size: 48px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 60px;
+  margin-bottom: 70px;
 
 }
 
@@ -141,6 +155,8 @@ padding-bottom:10px ;
 .last-card{
     background: none;
     color: #070101;
+    border: 2px solid rgb(232, 127, 22);
+  
 }
 /* pricing section end */
 
@@ -194,7 +210,7 @@ padding-bottom:10px ;
     margin:100px auto 30px;
 }
 
-.footer-top{
+.footer-parent{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -224,4 +240,13 @@ padding-bottom:10px ;
 .copyright{
     text-align:center;
     color:#6B7280;
+}
+
+.speakers-section,
+.pricing-section,
+.faq-section,
+.footer{
+    width: 90%;
+    max-width: 1140px;
+    margin: 100px auto;
 }
