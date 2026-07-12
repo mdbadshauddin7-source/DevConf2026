@@ -3,7 +3,7 @@
 A responsive-inspired developer conference landing page built using HTML and CSS.
 
 ## Live Website
-(Paste your GitHub Pages link here)
+https://mdbadshauddin7-source.github.io/DevConf2026/
 
 ## Technologies
 - HTML5
